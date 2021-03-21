@@ -1,0 +1,145 @@
+body{
+		background-color: #EDF2C5;
+}
+#content{
+	width:940px;
+	margin:0px auto;
+	/*position: absolute;*/
+}
+
+header{
+	position:relative;
+	width: 100%;
+}
+
+header h1{
+	font-family: Arial Black;
+	display: inline;
+	color: #778A50;
+}
+header .right{
+	display: inline;
+	position: absolute;
+	right: 0;
+	height:100%;
+
+}
+header .right > * {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right:5px;
+	padding-left:5px;
+}
+#link-middle {
+	width: 1px;
+	height: 25px;
+	border-right: solid #778A50 1px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+header .right div {
+	font-family: Arial BoldMT;
+	font-size: 14px;
+	color:#778A50;
+	border-style: solid;
+    border-width: 1px;
+	border-radius:3px;
+	margin-right:5px;
+	margin-left:5px;
+}
+header .right::after{
+	content: '';
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.vegetables_group{
+	display:inline-block;
+	width:445px;
+    vertical-align : top
+}
+.vegetables_group h3{
+	padding:15px 30px;
+	font-family: Arial Black;
+	color: #EDF2C5;
+	background-color: #778A50;
+	margin-top:30px;
+	margin-bottom: 15px;
+}
+.vegetables_group div{
+	line-height: 0;
+}
+
+.vegetables_group img{
+	width:140px;
+}
+
+.vegetables_group img:nth-child(1){
+	padding-right: 7px;
+}
+.vegetables_group img:nth-child(2){
+	padding-right: 7px;
+}
+.contact{
+	display:inline-block;
+	width:445px;
+	margin-left: 44px;
+	vertical-align : top
+}
+.contact h3{
+	padding:17px 30px 16px 30px;
+	font-family: Arial Black;
+	color: #EDF2C5;
+	background-color: #778A50;
+	margin-top:30px;
+	margin-bottom: 15px;
+}
+.contact article{
+	font-family: ArialMT Regular;
+	font-size: 12px;
+	color:#7D7D7D;
+	background-color: #F7FBDA;
+	padding:16px 15px 0px 15px;
+	height:124px;
+}
+.contact article div:nth-child(1){
+	line-height: 1.33;
+}
+
+.contact article hr:nth-child(2){
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border-bottom:0;
+}
+.contact article div:nth-child(3){
+	line-height: 1.83;
+	vertical-align: top;
+}
+
+
+footer{
+	font-size: 12px;x
+	width: 100%;
+	padding-top:24px;
+	padding-bottom:25px;
+	text-align: center;
+	background-color: #778A50;
+	margin-top: 35px;
+
+}
+ul{
+	padding:0;
+	background-color: #778A50;
+}
+
+li{
+	padding:16px 30px;
+	display:inline-block;
+	font-family: Arial Black;
+	color: #EDF2C5;
+}
+
+
